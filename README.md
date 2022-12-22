@@ -37,7 +37,7 @@ sudo apt update
 sudo apt install git libxss-dev libgconf-2-4 libnss3
 
 # Install latest version of libgphoto2, choose last stable release
-wget https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-updater.sh && sudo bash gphoto2-updater.sh
+wget https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-updater.sh && wget https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/.env && chmod +x gphoto2-updater.sh && sudo ./gphoto2-updater.sh
 
 # If you are using a Raspberry Pi > 1: Activate hardware acceleration
 sudo apt install libgl1-mesa-dri
