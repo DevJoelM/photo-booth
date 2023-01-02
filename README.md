@@ -56,6 +56,14 @@ sudo ./scripts/install_node_v9.sh
 npm install
 ```
 
+## Rotate Touchscreen (error)
+
+Put "lcd_rotate=2" in /boot/config.txt and the screen will turn upside-down.
+
+## Touchscreen won´t turn on after update (error)
+
+Changing "dtoverlay=vc4-kms-v3d" to "dtoverlay=vc4-fkms-v3d" in config.txt.
+
 ## Run photo-booth
 
 To run photo-booth the following command should do it. To run the webapp on port 80 and for the usage of GPIO pins at the Raspberry Pi root privileges are required.
