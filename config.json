@@ -1,23 +1,23 @@
 {
-	"language": "en",
+	"language": "de",
 	"init": {
 		"fullscreen": true,
-		"width": 1440,
-		"height": 900,
+		"width": 800,
+		"height": 480,
 		"showDevTools": false,
 		"useGPIO": false,
-		"grayscaleMode": true,
+		"grayscaleMode": false,
 		"preventScreensaver": true
 	},
-	"maxImageSize": "1500",
+	"maxImageSize": "1000",
 	"firstPhotoCountdownLength": "5",
 	"followingPhotosCountdownLength": "3",
-	"photoPreviewDuration": "8",
-	"photoSeriesLength": "3",
+	"photoPreviewDuration": "5",
+	"photoSeriesLength": "1",
 	"slideshow": {
 		"enabled": true,
-		"activatesAfterSeconds": "30",
-		"secondsPerPhoto": "8"
+		"activatesAfterSeconds": "20",
+		"secondsPerPhoto": "4"
 	},
 	"gphoto2": {
 		"capturetarget": 1,
@@ -46,7 +46,7 @@
 	},
 	"branding": {
 		"type": "text",
-		"content": "<div style='font-size: 1.2em; padding-left: 25px;'><i class='fa fa-wifi' aria-hidden='true' style='font-size: 2.5em;'></i> <b style='font-size: 2em; padding-left: 15px;'>photo-booth</b><br /><p>Log into wifi, browse to <b style='padding: 0 5px;'>photo.app</b> and download your photos!</p></div>",
+		"content": "<div style='font-size: 1.2em; padding-left: 25px;'><i class='fa fa-hand-o-up' aria-hidden='true' style='font-size: 2.5em;'></i> <b style='font-size: 3em; padding-left: 15px;'>TIPPEN ZUM STARTEN!</b><br /><p>Bei Problemen bitte <b style='padding: 0 5px;'>Joel</b> bescheid geben!</p></div>",
 		"position": "bottomleft"
 	},
 	"flash": {
