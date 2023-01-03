@@ -90,7 +90,7 @@ npm start
 
 ## Start photo-booth on boot (for Raspberry Pi)
 
-To start photo-booth on boot add the following line at the end of `/home/pi/.config/lxsession/LXDE-pi/autostart`:
+To start photo-booth on boot add the following line at the end of `/etc/xdg/lxsession/LXDE-pi/autostart`:
 
 ```
 @sudo node /home/pi/photo-booth/scripts/cli.js
